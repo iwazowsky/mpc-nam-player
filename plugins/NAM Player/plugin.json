@@ -1,0 +1,28 @@
+{
+  "name": "NAM Player",
+  "manufacturer": "Vazgen",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "effect",
+  "uid": "V10S",
+  "numInputs": 2,
+  "numOutputs": 2,
+  "category": "Amp Simulator",
+  "shortName": "NAM Player",
+  "knobs": [
+    { "parameter": 6, "label": "Model" },
+    { "parameter": 1, "label": "Drive" },
+    { "parameter": 2, "label": "Mix" }
+  ],
+  "shiftKnobs": [
+    { "parameter": 7, "label": "Folder" },
+    { "parameter": 3, "label": "Tone" },
+    { "parameter": 0, "label": "Level" }
+  ],
+  "file32": "VST/nam-player-arm32.so",
+  "file64": "VST/nam-player-arm64.so",
+  "description": "NAM Player: browse and play Neural Amp Modeler profiles (.nam, A1 and A2) from the card's 'NAM Profiles' folder.",
+  "author": "Vazgen",
+  "url": "",
+  "license": "MIT"
+}

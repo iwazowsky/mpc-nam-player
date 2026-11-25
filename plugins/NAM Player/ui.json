@@ -1,0 +1,19 @@
+{
+  "kit": "amber",
+  "qlinkGroups": "rows",
+  "pages": [
+    {
+      "name": "AMP",
+      "controls": [
+        { "param": "Model", "widget": "knob", "polarity": "unipolar" },
+        { "param": "Drive", "widget": "knob", "polarity": "bipolar" },
+        { "param": "Tone", "widget": "knob" },
+        { "param": "Mix", "widget": "fader" },
+        { "param": "Folder", "widget": "knob", "polarity": "unipolar" },
+        { "param": "Quality", "widget": "switch" },
+        { "param": "Normalize", "widget": "switch" },
+        { "param": "Level", "widget": "fader" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# The MPC Plugin SDK is cloned here, not vendored (see README.md)
+sdk/
+
+# Build output
+plugins/*/build/
+plugins/*/dist/
+
+# The companion's saved TONE3000 publishable key
+companion/config.json
+
+__pycache__/
+*.pyc
+.DS_Store
+
+# Recordings made on a device, and test audio that is not ours to redistribute
+tests/device/*.wav
